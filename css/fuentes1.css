@@ -1,0 +1,112 @@
+@font-face{
+	font-family: Bethsy;
+	src: url('../fuentes/Bethsy.ttf');
+}
+.a{
+	font-family: Bethsy;
+}
+@font-face{
+	font-family: Fontjek;
+	src: url('../fuentes/Fontjek.ttf');
+}
+.b{
+	font-family: Fontjek;
+}
+@font-face{
+	font-family: Megacut;
+	src: url('../fuentes/Megacut.ttf');
+}
+.c{
+	font-family: Megacut;
+}
+@font-face{
+	font-family: Pervitina-Dex-FFP;
+	src: url('../fuentes/Pervitina-Dex-FFP.ttf');
+}
+.d{
+	font-family: Pervitina-Dex-FFP;
+}
+@font-face{
+	font-family: PlayfairDisplay-Black;
+	src: url('../fuentes/PlayfairDisplay-Black.ttf');
+}
+.e{
+	font-family: PlayfairDisplay-Black;
+}
+@font-face{
+	font-family: PlayfairDisplay-BlackItalic;
+	src: url('../fuentes/PlayfairDisplay-BlackItalic.ttf');
+}
+.f{
+	font-family: PlayfairDisplay-BlackItalic;
+}
+@font-face{
+	font-family: PlayfairDisplay-Bold;
+	src: url('../fuentes/PlayfairDisplay-Bold.ttf')
+}
+.g{
+	font-family: PlayfairDisplay-Bold;
+}
+@font-face{
+	font-family: PlayfairDisplay-BoldItalic;
+	src: url('../fuentes/PlayfairDisplay-BoldItalic.ttf');
+}
+.h{
+	font-family: PlayfairDisplay-BoldItalic;
+}
+@font-face{
+	font-family: PlayfairDisplay-Italic;
+	src: url('../fuentes/PlayfairDisplay-Italic.ttf');
+}
+.i{
+	font-family: PlayfairDisplay-Italic;
+}
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url('../fuentes/PlayfairDisplay-Regular.ttf');
+}
+.j{
+	font-family: PlayfairDisplay-Regular;
+}
+@font-face{
+	font-family: PLBardamu-Lite;
+	src: url('../fuentes/PLBardamu-Lite.ttf');
+}
+.k{
+	font-family: PLBardamu-Lite;
+}
+@font-face{
+	font-family: ROUNDNIB.ttf;
+	src: url('../fuentes/ROUNDNIB.ttf');
+}
+.l{
+	font-family: ROUNDNIB.ttf;
+}
+@font-face{
+	font-family: Taken by Train;
+	src: url('../fuentes/Taken by Train.ttf');
+}
+.m{
+	font-family: Taken by Train;
+}
+@font-face{
+	font-family: The Delicate DEMO;
+	src: url('../fuentes/The Delicate DEMO.ttf');
+}
+.n{
+	font-family: The Delicate DEMO;
+}
+@font-face{
+	font-family: Welcome 2019;
+	src: url('../fuentes/Welcome 2019.ttf');
+}
+.o{
+	font-family: Welcome 2019;
+}
+@font-face{
+	font-family: Young Vigor;
+	src: url('../fuentes/Young Vigor.ttf');
+}
+.p{
+	font-family: Young Vigor;
+}

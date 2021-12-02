@@ -1,0 +1,248 @@
+*{
+	padding: 0;
+	margin: 0; 
+	box-sizing: border-box;  
+}
+body{
+	background: rgb(221, 87, 28);
+}
+section{
+	background: url('../imagen/Plant.png');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height:100vh;
+
+}
+header {
+	z-index: 0;
+	position: fixed;
+	background: #000;
+	width: 100%;
+	height: 625px;
+}
+nav {
+	background: black;
+	font-size: 20px;
+	margin-top:0px;
+	position: relative;
+}
+nav ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+nav > ul > li {
+	float:left;
+}
+nav ul li a {
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	padding:10px 20px;
+}
+nav ul li a:hover {
+	background: rgba(221, 87, 28, .7);
+}
+nav > ul > li:hover div {
+	display:table;
+}
+/*Submenu*/
+nav ul li div {
+	width:225px;
+	position: absolute;
+	background:#fff;
+	box-sizing:border-box;
+	display:none;
+}
+nav ul li div ul{
+	width:20%;
+	display:table-cell;
+	border-right:1px solid rgba(255,255,255,.5);
+	box-sizing:border-box;
+}
+nav ul li div ul:last-child {
+	border:none;
+}
+nav ul li div ul .titulo {
+	background:rgb(221, 87, 28);
+	color:#fff;
+}
+nav ul li div ul .titulo a {
+	color:#fff;
+	padding:10px 20px;
+}
+nav ul li div ul .titulo a:hover {
+	background:none;
+}
+nav ul li div ul li a {
+	color:#000;
+}
+nav ul li div ul li a:hover {
+	color:#fff;
+}
+.contenedor{
+	width: 100%;
+	margin: auto;
+}
+.contenedor-texto{
+	font-family: PlayfairDisplay-BlackItalic;
+	width: 100%;
+	text-align:center;
+	color: rgb(255, 255, 255);
+	padding: 100px;
+}
+.texto{
+	border: 3px solid rgba(255, 255,255, 0.6);
+	display: inline-block;
+	padding: 70px;
+	border-radius: 35px;
+	font-family: PlayfairDisplay-BlackItalic;
+}
+.texto img{
+	width: 50%;
+	height: 180px;
+}
+.texto h1{
+	font-size: 40px;
+}
+
+.ifcontenedor{
+	margin: 0px;
+	overflow: hidden;
+    background: rgb(182, 182, 182);
+	width: 100%;
+	text-align:center;
+	color: black;
+	padding: 30px;
+}
+.descripcion{
+	padding: 20px;
+	width: 50%;
+	float: left;
+	color: black;
+	font-size: 30px;
+  font-family: OpenSans-Regular;
+}
+.imagen{
+	padding: 20px;
+	width: 50%;
+	float: right;
+}
+.imagen img{
+height: 550px;
+width: 100%;
+}
+footer{
+  font-family: PlayfairDisplay-BlackItalic;
+	text-align: center;
+	background: rgb(0, 0, 0);
+	color: #fff;
+	width: 100%;
+	padding: 30px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+}
+footer a:hover{
+	color: rgba(221, 87, 28);
+}
+
+.checkbtn{
+	font-size: 30px;
+	color:white;
+	float: left;
+	line-height: 80px;
+	margin-left: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+
+@media (max-width: 952px){
+	nav ul li a{
+	font-size: 16px;
+	}
+}
+
+@media (max-width: 858px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 50%;
+		height: 100vh;
+		background:rgba(0, 0, 0, .5);
+		top: 50px;
+		left: -100%;
+		text-align: center;
+		transition: all 0.5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 10px 0;
+		line-height: 50px;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	li a:hover, li a.active{
+		background: none;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+	section{
+		background: url('../imagen/Plant.png');
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+		height: 100vh;
+	
+	}
+	.contenedor-texto{
+			font-family: PlayfairDisplay-BlackItalic;
+			width: auto;
+			text-align:center;
+			color: rgb(255, 255, 255);
+			padding: 50px;
+			height: auto;
+			height: 100vh;
+	}
+	.texto img{
+		width: 20%;
+		height: 150px;
+		width: auto;
+	}
+	.texto{
+		border: 3px solid rgba(255, 255,255, 0.6);
+		display: block;
+		padding: 70px;
+		border-radius: 35px;
+		font-family: PlayfairDisplay-BlackItalic;
+		width: auto;
+		position: center;
+		float: bottom;
+		margin: 15px;
+	}
+
+	.descripcion{
+		padding: 20px;
+		width: auto;
+		float: bottom;
+		color: black;
+		font-size: 30px;
+	  	font-family: OpenSans-Regular;
+	}
+	.imagen{
+		padding: 5px;
+		width: auto;
+		float: top;
+	}
+}
