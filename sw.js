@@ -7,10 +7,10 @@ self.addEventListener('install', evento=>{
     const promesa =caches.open(CACHE)
         .then(cache=>{
             return cache.addAll([
-                '/',
-                '/index.html',
-                '/js/app.js',
-                '/offline.html'
+                //'/',
+                'index.html',
+                'js/app.js',
+                'offline.html'
 
             ]);
         });
