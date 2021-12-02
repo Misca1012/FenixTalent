@@ -1,6 +1,6 @@
 var url=window.location.href;
 
-var ubicacionSw='/Misca1012/FenixTalent/sw.js';
+var ubicacionSw='/FenixTalent/sw.js';
 
 if ( navigator.serviceWorker ) {
    

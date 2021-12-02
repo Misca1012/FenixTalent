@@ -9,7 +9,7 @@ self.addEventListener('install', evento=>{
             return cache.addAll([
                 //'/',
                 'index.html',
-                'js/app.js',
+                '/js/app.js',
                 'offline.html'
 
             ]);
